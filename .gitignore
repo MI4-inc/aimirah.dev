@@ -1,0 +1,28 @@
+# dependencies
+node_modules/
+.pnpm-store/
+
+# next.js build output
+.next/
+out/
+
+# generated deploy artefacts
+site-static/
+aimirah-static.zip
+
+# test screenshots
+screens/
+
+# typescript incremental cache
+*.tsbuildinfo
+next-env.d.ts
+
+# env + credentials
+.env*
+!.env.example
+*.pem
+netlify*.pdf
+
+# os
+.DS_Store
+Thumbs.db
